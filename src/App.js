@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import detectEthereumProvider from '@metamask/detect-provider';
+import{ initToAsync } from "./utils/Async";
 
 function App() {
   
